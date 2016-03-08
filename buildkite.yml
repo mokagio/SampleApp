@@ -1,0 +1,5 @@
+steps:
+  - name: Unit Tests :hammer:
+    command: ./Scripts/ci_bootstrap.sh && ./Scripts/ci_tests.sh
+    agents:
+      queue: xcode
